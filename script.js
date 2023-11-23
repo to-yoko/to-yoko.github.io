@@ -7,6 +7,7 @@ onload = () => {
   inp.onchange = (e) => {
     for(let i=0; i < e.target.files.length; i++) {
       pl.push(URL.createObjectURL(e.target.files[i]));
+      document.body.innerHTML = 
     }
   }
 }
